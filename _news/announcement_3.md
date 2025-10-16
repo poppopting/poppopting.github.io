@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our ICDM 2025 paper was selected as a **Best Paper Award candidate**! 🎉  
+Our ICDM 2025 paper was selected as a **Best Paper Award candidate**! 🎉

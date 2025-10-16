@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Finished our **EACL submission**. Wish me good luck! 🤞  
+Finished our **EACL submission**. Wish me good luck! 🤞

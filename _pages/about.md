@@ -30,6 +30,7 @@ latest_posts:
 I am a research engineer at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), working with Professor [Chih-Jen Lin](https://www.csie.ntu.edu.tw/~cjlin/).
 
 My research interests include:
+
 - **Extreme multi-label classification**, with active contributions to [LibMultiLabel](https://github.com/ntumlgroup/LibMultiLabel), a library for multi-class and multi-label classification.
 - **Efficient machine learning**, focusing on **accelerating large language model (LLM) inference** and enabling **sparse computation**.
 
