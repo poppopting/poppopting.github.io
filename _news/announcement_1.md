@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-08-26 08:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+My work on **Revisiting One-Versus-One and One-Versus-Rest** has been **accepted as a regular paper at IEEE ICDM 2025**.
