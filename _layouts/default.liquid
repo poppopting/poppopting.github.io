@@ -52,6 +52,31 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=oSmKDVm8aOivRpOHYitc_hU9MunMO8IlcteThde7lpI"></script>
+    <!-- 🌍 Compact ClustrMaps (auto theme + fixed corner) -->
+    <script>
+      const wrapper = document.createElement('div');
+      wrapper.style.position = 'fixed';
+      wrapper.style.bottom = '10px';
+      wrapper.style.right = '10px';
+      wrapper.style.zIndex = '9999';
+      wrapper.style.width = '120px';
+      wrapper.style.height = '120px';
+      document.body.appendChild(wrapper);
+
+      function loadClustrMap() {
+        wrapper.innerHTML = '';
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        const color = isDark ? '222222' : 'ffffff';
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.id = 'clstr_globe';
+        script.src = 'https://clustrmaps.com/globe.js?d=oSmKDVm8aOivRpOHYitc_hU9MunMO8IlcteThde7lpI&cl=' + color + '&w=a';
+        wrapper.appendChild(script);
+      }
+
+      loadClustrMap();
+      const observer = new MutationObserver(loadClustrMap);
+      observer.observe(document.documentElement, { attributes: true });
+    </script>
   </body>
 </html>
