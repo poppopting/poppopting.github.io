@@ -1,0 +1,46 @@
+<section>
+  <h2 class="section-title">countries I've visited</h2>
+  <div id="map" style="height: 300px; border-radius: 12px; margin: 20px 0 40px;"></div>
+</section>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const map = L.map("map", {
+      zoomControl: false,
+      attributionControl: false,
+      scrollWheelZoom: false,
+      dragging: true,
+    }).setView([20, 0], 2);
+
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
+      maxZoom: 8,
+    }).addTo(map);
+
+    const cities = {{ site.data.visited_cities | jsonify }};
+    const cityIcon = L.circleMarker([0,0], {
+      radius: 5,
+      fillColor: "#ff6666",
+      color: "#fff",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.9
+    });
+
+    cities.forEach(c => {
+      const marker = L.circleMarker([c.lat, c.lon], {
+        radius: 6,
+        fillColor: "#ff6666",
+        color: "#fff",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.9
+      }).bindPopup(`<b>${c.name}</b>`);
+      marker.addTo(map);
+    });
+  });
+</script>

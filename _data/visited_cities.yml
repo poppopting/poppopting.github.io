@@ -1,0 +1,70 @@
+#  Asia
+- name: Abu Dhabi, United Arab Emirates
+  lat: 24.4539
+  lon: 54.3773
+
+- name: Dubai, United Arab Emirates
+  lat: 25.276987
+  lon: 55.296249
+
+- name: Taipei, Taiwan
+  lat: 25.0330
+  lon: 121.5654
+
+- name: Tokyo, Japan
+  lat: 35.6762
+  lon: 139.6503
+
+- name: Osaka, Japan
+  lat: 34.6937
+  lon: 135.5023
+
+- name: Sapporo, Japan
+  lat: 43.0618
+  lon: 141.3545
+
+- name: Seoul, South Korea
+  lat: 37.5665
+  lon: 126.9780
+
+- name: Guangzhou, China
+  lat: 23.1291
+  lon: 113.2644
+
+- name: Beijing, China
+  lat: 39.9042
+  lon: 116.4074
+
+- name: Bangkok, Thailand
+  lat: 13.7563
+  lon: 100.5018
+
+- name: Cappadocia, Turkey
+  lat: 38.6431
+  lon: 34.8283
+
+- name: Istanbul, Turkey
+  lat: 41.0082
+  lon: 28.9784
+
+---
+
+#  Europe
+- name: Vienna, Austria
+  lat: 48.2082
+  lon: 16.3738
+
+- name: Budapest, Hungary
+  lat: 47.4979
+  lon: 19.0402
+
+---
+
+# North America
+- name: Los Angeles, United States
+  lat: 34.0522
+  lon: -118.2437
+
+- name: Puerto Vallarta, Mexico
+  lat: 20.6534
+  lon: -105.2253
