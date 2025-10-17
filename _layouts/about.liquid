@@ -2,16 +2,18 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
+  <header class="post-header" style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+    <h1 class="post-title" style="margin: 0; display: flex; align-items: center; gap: 12px;">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
+      <div class="contact-icons" style="display: flex; align-items: center; gap: 10px; margin-left: 12px;">
+        {% include social.liquid %}
+      </div>
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
   </header>
 
   <article>
@@ -67,6 +69,7 @@ layout: default
     <!-- Visitor Map Section -->
     {% include visitor.liquid %}
 
+    {% comment %}
     <!-- Social -->
     {% if page.social %}
       <div class="social">
@@ -75,6 +78,7 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+    {% endcomment %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
