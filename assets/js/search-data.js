@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-fun-facts",
           title: "fun facts",
-          description: "Some fun facts about my travels and interests.",
+          description: "Some fun facts about my interests and travels.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/funfact/";
