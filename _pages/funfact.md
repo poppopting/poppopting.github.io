@@ -6,6 +6,7 @@ nav_order: 6
 permalink: /funfact/
 description: Some fun facts about my interests and travels.
 ---
+
 <h2 class="section-title">street dance</h2>
 Apart from research, I love street dance, especially **popping** style, and I've been dancing for more than 10 years.
 During graduate school, my crew and I represented our university in a national street dance competition — and won the championship!
