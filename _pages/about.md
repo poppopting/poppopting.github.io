@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am actively looking for PhD opportunities!
+subtitle: I am actively looking for PhD opportunities starting in 2026!
 
 profile:
   align: right
