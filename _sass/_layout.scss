@@ -38,16 +38,16 @@ body.sticky-bottom-footer {
   }
 }
 
-/* === 名字 + icon 容器 === */
+// Name + Icon Container
 .name-and-icons {
   display: flex;
-  flex-wrap: wrap; /* ✅ 內容太長自動換行 */
+  flex-wrap: wrap; // Automatically wrap content if too long
   align-items: center;
-  gap: 16px; /* 名字與 icon 間距 */
-  margin-bottom: 8px; /* 與 subtitle 分開 */
+  gap: 16px; // Spacing between name and icons
+  margin-bottom: 8px; // Space between this and subtitle
 }
 
-/* === icon 設定 === */
+// icon settings
 .name-and-icons .contact-icons {
   display: flex;
   flex-wrap: wrap;
@@ -69,11 +69,6 @@ body.sticky-bottom-footer {
       }
     }
 
-    // i::before {
-    //   color: var(--global-text-color);
-    //   transition-property: all 0.2s ease-in-out;
-    // }
-
     &:hover {
       text-decoration: none;
 
@@ -83,13 +78,6 @@ body.sticky-bottom-footer {
     }
   }
 }
-
-// /* subtitle 永遠另起一行 */
-// .post-header .desc {
-//   width: 100%;
-//   display: block;
-//   margin-top: 4px;
-// }
 
 // TODO: redefine content layout.
 
