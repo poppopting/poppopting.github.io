@@ -48,7 +48,6 @@
   lon: 28.9784
 
 ---
-
 #  Europe
 - name: Vienna, Austria
   lat: 48.2082
@@ -59,7 +58,6 @@
   lon: 19.0402
 
 ---
-
 # North America
 - name: Los Angeles, United States
   lat: 34.0522
