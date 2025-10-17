@@ -2,19 +2,22 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header" style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-    <h1 class="post-title" style="margin: 0; display: flex; align-items: center; gap: 12px;">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-      <div class="contact-icons" style="display: flex; align-items: center; gap: 10px; margin-left: 12px;">
+  <header class="post-header">
+    <div class="name-and-icons">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <div class="contact-icons">
         {% include social.liquid %}
       </div>
-    </h1>
+    </div>
   </header>
+  <p class="desc">{{ page.subtitle }}</p>
 
   <article>
     {% if page.profile %}
