@@ -83,6 +83,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/kuan-ting-chen-4a1969175", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=cEZsE8EAAAAJ", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
