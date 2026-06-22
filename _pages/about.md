@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am actively looking for PhD opportunities starting in 2026!
+subtitle: I will join UCLA as a Computer Science PhD student in Fall 2026!
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a research engineer at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), working with Professor [Chih-Jen Lin](https://www.csie.ntu.edu.tw/~cjlin/).
+I am a research engineer at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/) and [National Taiwan University](https://www.ntu.edu.tw/), working with Professor [Chih-Jen Lin](https://www.csie.ntu.edu.tw/~cjlin/).
 
 My research interests include:
 
