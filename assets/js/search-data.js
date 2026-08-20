@@ -61,6 +61,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-on-probability-estimation-for-extreme-multi-label-learning-has-been-accepted-for-presentation-at-the-ecml-pkdd-2026-research-track",
           title: 'Our work on probability estimation for extreme multi-label learning has been accepted for...',
           description: "",
+          section: "News",},{id: "news-our-work-on-hyperparameter-search-for-tree-based-linear-methods-in-extreme-multi-label-text-classification-has-been-accepted-for-presentation-at-the-cikm-2026-applied-research-track",
+          title: 'Our work on hyperparameter search for tree based linear methods in extreme multi-label...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
